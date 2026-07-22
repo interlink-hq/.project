@@ -1,0 +1,67 @@
+# .project metadata for Interlink
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "interlink"
+name: "Interlink"
+description: "InterLink aims to provide an abstraction for the execution of a Kubernetes pod on any remote resource capable of managing a Container execution lifecycle thanks to the Virtual Kubelet interface. It allows you to extend your cloud environment anywhere by running Kubernetes workloads on various infrastructures, creating a seamless cloud-native experience across diverse environments."
+type: "project"
+project_lead: "dciangot" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#sign-your-commits"
+    primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2025-03-04T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/352" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/interlink-hq/interLink"
+
+website: "https://interlink-project.dev"
+
+artwork: "https://landscape.cncf.io/logos/interlink.svg"
+
+adopters:
+  path: "https://github.com/interlink-hq/interLink/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "interlink-hq/interLink"
+
+
+security:
+  policy:
+    path: "https://github.com/interlink-hq/interLink/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/interlink-hq/interLink/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/interlink-hq/interLink/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/interlink-hq/interLink/blob/main/.github/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/interlink-hq/interLink/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/interlink-hq/interLink/blob/main/README.md"
+
+landscape:
+  category: "Runtime"
+  subcategory: "Container Runtime"
+
+# CLOMonitor Score: 78/100
+# Documentation: 93 | License: 100 | Best Practices: 53 | Security: 55
