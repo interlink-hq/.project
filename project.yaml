@@ -23,7 +23,7 @@ repositories:
 
 website: "https://interlink-project.dev"
 
-artwork: "https://landscape.cncf.io/logos/interlink.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/interlink"
 
 adopters:
   path: "https://github.com/interlink-hq/interLink/blob/main/ADOPTERS.md"
